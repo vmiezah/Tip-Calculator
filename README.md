@@ -23,7 +23,11 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [x] List anything else that you can get done to improve the app functionality!
+* [x] Stylistic changes that improve overall app design
+* [x] Decomposition of calculation formula code and code to update total price for the sake of improving readability
+* [x] Keyboard auto-displays on load
+* [x] Price split feature that divides total price amongst multiple individuals
+* [x] App icon on homescreen
 
 
 ## Video Walkthrough
