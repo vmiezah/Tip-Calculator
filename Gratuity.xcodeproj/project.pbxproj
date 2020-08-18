@@ -15,6 +15,8 @@
 		57002C6324E73B150006FC99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57002C6124E73B150006FC99 /* LaunchScreen.storyboard */; };
 		57002C6E24E73B150006FC99 /* TipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57002C6D24E73B150006FC99 /* TipTests.swift */; };
 		57002C7924E73B160006FC99 /* TipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57002C7824E73B160006FC99 /* TipUITests.swift */; };
+		57002C8724EAE1460006FC99 /* TipCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57002C8624EAE1460006FC99 /* TipCalc.swift */; };
+		575960B624EB52780053E5EF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 575960B524EB52780053E5EF /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		57002C5324E73B110006FC99 /* Tip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57002C5324E73B110006FC99 /* Gratuity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gratuity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57002C5624E73B110006FC99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57002C5824E73B110006FC99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		57002C5A24E73B110006FC99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,12 +45,14 @@
 		57002C5F24E73B150006FC99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57002C6224E73B150006FC99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57002C6424E73B150006FC99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57002C6924E73B150006FC99 /* TipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57002C6924E73B150006FC99 /* GratuityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GratuityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57002C6D24E73B150006FC99 /* TipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipTests.swift; sourceTree = "<group>"; };
 		57002C6F24E73B160006FC99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57002C7424E73B160006FC99 /* TipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57002C7424E73B160006FC99 /* GratuityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GratuityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57002C7824E73B160006FC99 /* TipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipUITests.swift; sourceTree = "<group>"; };
 		57002C7A24E73B160006FC99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57002C8624EAE1460006FC99 /* TipCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalc.swift; sourceTree = "<group>"; };
+		575960B524EB52780053E5EF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +83,8 @@
 		57002C4A24E73B110006FC99 = {
 			isa = PBXGroup;
 			children = (
-				57002C5524E73B110006FC99 /* Tip */,
+				575960B524EB52780053E5EF /* Default-568h@2x.png */,
+				57002C5524E73B110006FC99 /* Gratuity */,
 				57002C6C24E73B150006FC99 /* TipTests */,
 				57002C7724E73B160006FC99 /* TipUITests */,
 				57002C5424E73B110006FC99 /* Products */,
@@ -89,25 +94,26 @@
 		57002C5424E73B110006FC99 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				57002C5324E73B110006FC99 /* Tip.app */,
-				57002C6924E73B150006FC99 /* TipTests.xctest */,
-				57002C7424E73B160006FC99 /* TipUITests.xctest */,
+				57002C5324E73B110006FC99 /* Gratuity.app */,
+				57002C6924E73B150006FC99 /* GratuityTests.xctest */,
+				57002C7424E73B160006FC99 /* GratuityUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		57002C5524E73B110006FC99 /* Tip */ = {
+		57002C5524E73B110006FC99 /* Gratuity */ = {
 			isa = PBXGroup;
 			children = (
 				57002C5624E73B110006FC99 /* AppDelegate.swift */,
 				57002C5824E73B110006FC99 /* SceneDelegate.swift */,
 				57002C5A24E73B110006FC99 /* ViewController.swift */,
 				57002C5C24E73B110006FC99 /* Main.storyboard */,
+				57002C8624EAE1460006FC99 /* TipCalc.swift */,
 				57002C5F24E73B150006FC99 /* Assets.xcassets */,
 				57002C6124E73B150006FC99 /* LaunchScreen.storyboard */,
 				57002C6424E73B150006FC99 /* Info.plist */,
 			);
-			path = Tip;
+			path = Gratuity;
 			sourceTree = "<group>";
 		};
 		57002C6C24E73B150006FC99 /* TipTests */ = {
@@ -131,9 +137,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		57002C5224E73B110006FC99 /* Tip */ = {
+		57002C5224E73B110006FC99 /* Gratuity */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57002C7D24E73B160006FC99 /* Build configuration list for PBXNativeTarget "Tip" */;
+			buildConfigurationList = 57002C7D24E73B160006FC99 /* Build configuration list for PBXNativeTarget "Gratuity" */;
 			buildPhases = (
 				57002C4F24E73B110006FC99 /* Sources */,
 				57002C5024E73B110006FC99 /* Frameworks */,
@@ -143,14 +149,14 @@
 			);
 			dependencies = (
 			);
-			name = Tip;
+			name = Gratuity;
 			productName = Tip;
-			productReference = 57002C5324E73B110006FC99 /* Tip.app */;
+			productReference = 57002C5324E73B110006FC99 /* Gratuity.app */;
 			productType = "com.apple.product-type.application";
 		};
-		57002C6824E73B150006FC99 /* TipTests */ = {
+		57002C6824E73B150006FC99 /* GratuityTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57002C8024E73B160006FC99 /* Build configuration list for PBXNativeTarget "TipTests" */;
+			buildConfigurationList = 57002C8024E73B160006FC99 /* Build configuration list for PBXNativeTarget "GratuityTests" */;
 			buildPhases = (
 				57002C6524E73B150006FC99 /* Sources */,
 				57002C6624E73B150006FC99 /* Frameworks */,
@@ -161,14 +167,14 @@
 			dependencies = (
 				57002C6B24E73B150006FC99 /* PBXTargetDependency */,
 			);
-			name = TipTests;
+			name = GratuityTests;
 			productName = TipTests;
-			productReference = 57002C6924E73B150006FC99 /* TipTests.xctest */;
+			productReference = 57002C6924E73B150006FC99 /* GratuityTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		57002C7324E73B160006FC99 /* TipUITests */ = {
+		57002C7324E73B160006FC99 /* GratuityUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57002C8324E73B160006FC99 /* Build configuration list for PBXNativeTarget "TipUITests" */;
+			buildConfigurationList = 57002C8324E73B160006FC99 /* Build configuration list for PBXNativeTarget "GratuityUITests" */;
 			buildPhases = (
 				57002C7024E73B160006FC99 /* Sources */,
 				57002C7124E73B160006FC99 /* Frameworks */,
@@ -179,9 +185,9 @@
 			dependencies = (
 				57002C7624E73B160006FC99 /* PBXTargetDependency */,
 			);
-			name = TipUITests;
+			name = GratuityUITests;
 			productName = TipUITests;
-			productReference = 57002C7424E73B160006FC99 /* TipUITests.xctest */;
+			productReference = 57002C7424E73B160006FC99 /* GratuityUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 57002C4E24E73B110006FC99 /* Build configuration list for PBXProject "Tip" */;
+			buildConfigurationList = 57002C4E24E73B110006FC99 /* Build configuration list for PBXProject "Gratuity" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +226,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				57002C5224E73B110006FC99 /* Tip */,
-				57002C6824E73B150006FC99 /* TipTests */,
-				57002C7324E73B160006FC99 /* TipUITests */,
+				57002C5224E73B110006FC99 /* Gratuity */,
+				57002C6824E73B150006FC99 /* GratuityTests */,
+				57002C7324E73B160006FC99 /* GratuityUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57002C6324E73B150006FC99 /* LaunchScreen.storyboard in Resources */,
+				575960B624EB52780053E5EF /* Default-568h@2x.png in Resources */,
 				57002C6024E73B150006FC99 /* Assets.xcassets in Resources */,
 				57002C5E24E73B110006FC99 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57002C8724EAE1460006FC99 /* TipCalc.swift in Sources */,
 				57002C5B24E73B110006FC99 /* ViewController.swift in Sources */,
 				57002C5724E73B110006FC99 /* AppDelegate.swift in Sources */,
 				57002C5924E73B110006FC99 /* SceneDelegate.swift in Sources */,
@@ -286,12 +294,12 @@
 /* Begin PBXTargetDependency section */
 		57002C6B24E73B150006FC99 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 57002C5224E73B110006FC99 /* Tip */;
+			target = 57002C5224E73B110006FC99 /* Gratuity */;
 			targetProxy = 57002C6A24E73B150006FC99 /* PBXContainerItemProxy */;
 		};
 		57002C7624E73B160006FC99 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 57002C5224E73B110006FC99 /* Tip */;
+			target = 57002C5224E73B110006FC99 /* Gratuity */;
 			targetProxy = 57002C7524E73B160006FC99 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -435,7 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Tip/Info.plist;
+				INFOPLIST_FILE = Gratuity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Tip/Info.plist;
+				INFOPLIST_FILE = Gratuity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -481,7 +489,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tip.app/Tip";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gratuity.app/Gratuity";
 			};
 			name = Debug;
 		};
@@ -502,7 +510,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tip.app/Tip";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gratuity.app/Gratuity";
 			};
 			name = Release;
 		};
@@ -547,7 +555,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		57002C4E24E73B110006FC99 /* Build configuration list for PBXProject "Tip" */ = {
+		57002C4E24E73B110006FC99 /* Build configuration list for PBXProject "Gratuity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57002C7B24E73B160006FC99 /* Debug */,
@@ -556,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57002C7D24E73B160006FC99 /* Build configuration list for PBXNativeTarget "Tip" */ = {
+		57002C7D24E73B160006FC99 /* Build configuration list for PBXNativeTarget "Gratuity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57002C7E24E73B160006FC99 /* Debug */,
@@ -565,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57002C8024E73B160006FC99 /* Build configuration list for PBXNativeTarget "TipTests" */ = {
+		57002C8024E73B160006FC99 /* Build configuration list for PBXNativeTarget "GratuityTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57002C8124E73B160006FC99 /* Debug */,
@@ -574,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57002C8324E73B160006FC99 /* Build configuration list for PBXNativeTarget "TipUITests" */ = {
+		57002C8324E73B160006FC99 /* Build configuration list for PBXNativeTarget "GratuityUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57002C8424E73B160006FC99 /* Debug */,
