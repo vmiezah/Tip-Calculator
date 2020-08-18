@@ -35,6 +35,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of my app:
 
 <img src='http://g.recordit.co/5cmztw59fc.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+GIF created with [RecordIt](https://recordit.co).
 
 ## Notes
 
