@@ -1,7 +1,7 @@
 
 # Pre-work - *Tip-Calculator*
 
-**Tip-Calculator** is a tip calculator application for iOS that computes total price after user enters intial price and selects tip percentage.
+**Tip-Calculator** is a tip calculator application for iOS that computes a total price after a user enters an intial price and selects a tip percentage.
 
 Submitted by: **Victor Miezah**
 
