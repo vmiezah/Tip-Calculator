@@ -64,6 +64,7 @@ class ViewController: UIViewController {
         view.endEditing(true)
     }
     
+    
     @IBAction func slider(_ sender: UISlider){
         // updates percentlabel value to correspond with slider changes
         percentLabel.text = String(format: "%02d",Int(sender.value))
